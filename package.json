@@ -1,0 +1,16 @@
+{
+  "name": "com.gamebase.core",
+  "displayName": "Gamebase-Core",
+    "description": "",
+    "version": "1.0.0",
+    "unity": "2018.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mob-sakai/GitDependencyResolverForUnity.git"
+    },
+  "src": "Packages/com.gamebase.core",
+    "author": "hiyorin <ponkotsu.hiyorin@gmail.com> (https://github.com/hiyorin)",
+    "dependencies": {
+    }
+}
