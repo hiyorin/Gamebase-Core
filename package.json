@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mob-sakai/GitDependencyResolverForUnity.git"
+    "url": "https://github.com/hiyorin/Gamebase-Core.git"
   },
   "src": "Packages/com.gamebase.core",
   "author": "hiyorin <ponkotsu.hiyorin@gmail.com> (https://github.com/hiyorin)",
