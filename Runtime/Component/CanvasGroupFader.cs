@@ -2,7 +2,7 @@ using DG.Tweening;
 using UniRx.Async;
 using UnityEngine;
 
-namespace Gamebase.Presentation.View
+namespace Gamebase.Component
 {
     [RequireComponent(typeof(CanvasGroup))]
     public sealed class CanvasGroupFader : MonoBehaviour
