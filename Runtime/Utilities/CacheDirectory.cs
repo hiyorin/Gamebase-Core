@@ -1,7 +1,7 @@
 using System.IO;
 using UniRx.Async;
 
-namespace Gamebase.Application.Utilities
+namespace Gamebase.Utilities
 {
     public sealed class CacheDirectory
     {

@@ -1,5 +1,3 @@
-using Gamebase.Data.Repository;
-using Gamebase.Domain.UseCase;
 using UnityEngine;
 using Zenject;
 
@@ -39,8 +37,8 @@ namespace Gamebase.Application.Sound.Unity
             subContainer.Bind<UnitySoundManager>().AsSingle();
             subContainer.Bind<UnitySoundVolumeController>().AsSingle();
             
-            subContainer.BindInterfacesTo<SoundConfigRepository>().AsSingle();
-            subContainer.BindInterfacesTo<SoundConfigUseCase>().AsSingle();
+            // subContainer.BindInterfacesTo<SoundConfigRepository>().AsSingle();
+            // subContainer.BindInterfacesTo<SoundConfigUseCase>().AsSingle();
             subContainer.BindInstance(generalSettings).AsSingle();
             subContainer.BindInstance(settings).AsSingle();
             subContainer.BindInstance(preloadPacks).AsSingle();

@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Gamebase.Domain.UseCase;
 using UniRx.Async;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -25,7 +24,7 @@ namespace Gamebase.Application.Sound.Unity
         
         [Inject] private UnitySoundPack[] preloadPacks = null;
 
-        [Inject] private ISoundConfigUseCase soundConfigUseCase = null;
+        // [Inject] private ISoundConfigUseCase soundConfigUseCase = null;
         
         private GameObject container;
 
@@ -81,7 +80,7 @@ namespace Gamebase.Application.Sound.Unity
 
         private async UniTask Initialize()
         {
-            await soundConfigUseCase.Initialize();
+            // await soundConfigUseCase.Initialize();
             initialized = true;
         }
 

@@ -3,7 +3,7 @@ using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceLocations;
 using UnityEngine.ResourceManagement.ResourceProviders;
 
-namespace Gamebase.Application.Utilities
+namespace Gamebase.Utilities
 {
     public static class AddressableUtility
     {

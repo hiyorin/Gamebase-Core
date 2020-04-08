@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Zenject;
 
-namespace Gamebase.Application.Utilities
+namespace Gamebase.Utilities
 {
     [RequireComponent(typeof(Canvas))]
     public sealed class CameraCanvas : MonoBehaviour
