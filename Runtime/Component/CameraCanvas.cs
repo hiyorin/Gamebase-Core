@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using Zenject;
 
-namespace Gamebase.Utilities
+namespace Gamebase.Component
 {
     [RequireComponent(typeof(Canvas))]
     public sealed class CameraCanvas : MonoBehaviour
     {
-        [InjectOptional] private Camera uiCamera = null;
+        [InjectOptional] private Camera uiCamera = default;
 
         private void Start()
         {
