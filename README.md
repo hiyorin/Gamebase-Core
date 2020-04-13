@@ -2,8 +2,14 @@
 
 <br><br><br><br>
 ## Table Of Contents
+- [Description](#description)
 - [Install](#install)
 - [Usege](#usage)
+- [NodeCanvas Integration](#nodecanvas-integration)
+- [License](#license)
+
+<br><br><br><br>
+## Description
 
 <br><br><br><br>
 ## Install
@@ -37,3 +43,14 @@ Or, use [UpmGitExtension](https://github.com/mob-sakai/UpmGitExtension.git) to i
 
 <br><br><br><br>
 ## Usage
+
+<br><br><br><br>
+## NodeCanvas Integration
+[NodeCanvas](https://assetstore.unity.com/packages/tools/visual-scripting/nodecanvas-14914) is the Complete Visual Behaviour Authoring solution for Unity. For more details see the [NodeCanvas docs](https://nodecanvas.paradoxnotion.com/documentation/).  
+
+Gamebase integration with NodeCanvas is disabled by default. To enable, you must add the define `GAMEBASE_ADD_NODECANVAS` to your project,
+
+<br><br><br><br>
+## License
+This library is under the MIT License.  
+[here](LICENSE.md)
